@@ -13,7 +13,7 @@ int main(){
 	    boxN->value = index;
 	    boxE = boxN; }
     for (index=0; index<=2; index++) {
-	    printf(“Value at index %d is %d\n”, index, head->value);
+	    printf("Value at index %d is %d\n", index, head->value);
 	    head = head->next;
-	    printf(“Value at index %d is %d\n”, index+1, head->value); }
+	    printf("Value at index %d is %d\n", index+1, head->value); }
 }
